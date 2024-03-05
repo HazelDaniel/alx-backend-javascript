@@ -1,5 +1,6 @@
 function getResponseFromAPI() {
-  return new Promise((res, _) => res(true));
+  return new Promise((res) => res(true));
 }
 
 export default getResponseFromAPI;
+/* eslint-disable eol-last */

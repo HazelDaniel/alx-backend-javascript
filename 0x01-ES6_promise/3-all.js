@@ -1,4 +1,4 @@
-import { createUser, uploadPhoto } from "./utils";
+import { createUser, uploadPhoto } from './utils';
 
 async function handleProfileSignup() {
   try {
@@ -8,7 +8,7 @@ async function handleProfileSignup() {
     ]);
     console.log(`${body} ${firstName} ${lastName}`);
   } catch (err) {
-    console.log("Signup system offline");
+    console.log('Signup system offline');
   }
 }
 

@@ -1,17 +1,17 @@
+/* eslint-disable indent */
+/* eslint-disable no-tabs */
 function handleResponseFromAPI(promise) {
-  promise
-    .then((_) => {
-      return {
-        status: 200,
-        body: "success",
-      };
-    })
-    .catch((_) => {
-      return new Error();
-    })
-    .finally((_) => {
-      console.log("Got a response from the API");
-    });
+	promise
+	.then(() => ({
+		status: 200,
+		body: 'success',
+	}))
+	.catch(() => new Error())
+	.finally(() => {
+		console.log('Got a response from the API');
+	});
 }
+/* eslint-enable indent */
+/* eslint-enable no-tabs */
 
 export default handleResponseFromAPI;
