@@ -1,5 +1,5 @@
 function updateUniqueItems(mapArg) {
-  if (!mapArg) {
+  if (!mapArg || !(mapArg instanceof Map)) {
     throw new Error('Cannot process');
   }
 
