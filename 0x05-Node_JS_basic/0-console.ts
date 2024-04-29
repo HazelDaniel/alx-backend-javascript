@@ -1,2 +1,4 @@
 #!/usr/bin/node
-console.log("Hello NodeJS!");
+const dispayMessage: () => void = () => {
+  console.log("Hello NodeJS!");
+};

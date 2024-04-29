@@ -1,3 +1,5 @@
 #!/usr/bin/node
 "use strict";
-console.log("Hello NodeJS!");
+const dispayMessage = () => {
+    console.log("Hello NodeJS!");
+};
