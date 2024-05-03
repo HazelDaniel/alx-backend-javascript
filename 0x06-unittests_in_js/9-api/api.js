@@ -1,3 +1,4 @@
+#!/usr/bin/node
 const express = require('express');
 
 const app = express();
@@ -13,7 +14,7 @@ app.get('/cart/:id(\\d+)', (req, res) => {
   res.send(`Payment methods for cart ${id}`);
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, _ => {
   console.log(`API available on localhost port ${PORT}`);
 });
 
